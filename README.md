@@ -14,11 +14,4 @@ execute
 inspect eval app/evals/eval_foo.py --model openai/gpt-3.5-turbo
 ```
 
-bang!
-
-```
-...
-  File "/home/adrianlyjak/dev/inspect-ai-48-repro/app/evals/eval_foo.py", line 4, in <module>
-    from app.prompts.foo import GREET
-ModuleNotFoundError: No module named 'app'
-```
+Success!
